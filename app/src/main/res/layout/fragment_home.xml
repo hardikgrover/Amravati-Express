@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_bar"
+            android:elevation="4dp"
+            android:hint="Search"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:textAlignment="center"
+            android:textSize="20sp"></EditText>
+
+
+        <ImageView
+            android:id="@+id/search_items"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/search_edit_text"
+            android:src="@drawable/search"></ImageView>
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search_edit_text"
+            android:text="Shops"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#171616"
+
+                    ></TextView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/service_r2_view"
+            android:layout_width="match_parent"
+            android:layout_height="405.5dp"
+            android:layout_below="@+id/line"
+            android:layout_marginLeft="6.5dp"
+            android:layout_marginRight="2.5dp"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="0dp"
+
+            ></androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:id="@+id/view_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/service_r2_view"
+            android:text="View all"
+            android:textSize="15sp"
+            android:layout_marginRight="2dp"
+            android:padding="3dp"
+            android:background="@drawable/view_all"
+            android:textStyle="bold"
+            ></TextView>
+            <TextView
+                android:id="@+id/services_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Services"
+                android:layout_below="@+id/view_all"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textColor="#171616"
+                android:layout_marginTop="2dp">
+
+
+                ></TextView>
+        <TextView
+            android:id="@+id/line_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/services_text"
+            android:background="@android:color/black"
+            ></TextView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/service_r1_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/services_text"
+        android:padding="11dp"
+
+        android:layout_marginTop="5dp"></androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:id="@+id/another_line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/service_r1_view"
+            android:background="@android:color/black"
+
+            ></TextView>
+    <TextView
+        android:id="@+id/view_all_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/another_line"
+        android:text="View all"
+        android:textSize="15sp"
+        android:layout_marginRight="2dp"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:background="@drawable/view_all"
+        android:layout_marginTop="2dp"
+        ></TextView>
+
+
+    </RelativeLayout>
+
+</ScrollView>

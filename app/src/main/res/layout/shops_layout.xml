@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:id="@+id/shop_image"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:src="@drawable/shops"
+            android:scaleType="fitXY"
+
+
+            android:background="@drawable/shop_details_image"
+
+
+
+            >
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Shop Name"
+                android:textColor="#171616"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                ></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <TextView
+                    android:id="@+id/call_now"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/call_now"
+                    android:textAlignment="center"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textColor="#151414"
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+
+
+
+                    android:text="Call"
+                    android:textSize="19sp"></TextView>
+                <TextView
+                    android:id="@+id/write_review"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/review_now"
+                    android:padding="3dp"
+                    android:textAlignment="center"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textColor="#151414"
+                    android:layout_marginLeft="5dp"
+
+                    android:text="Reviews"
+                    android:textSize="19sp"></TextView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/rating_bar"
+            android:numStars="5"
+            android:layout_gravity="center"
+            android:layout_marginTop="-5dp"
+            android:maxHeight="40dp"
+            android:isIndicator="true"
+
+            ></RatingBar>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

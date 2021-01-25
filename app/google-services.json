@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "998191133300",
+    "firebase_url": "https://amravatiexpress-302d9.firebaseio.com",
+    "project_id": "amravatiexpress-302d9",
+    "storage_bucket": "amravatiexpress-302d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998191133300:android:91979a9d6fa7b724579721",
+        "android_client_info": {
+          "package_name": "com.example.amravatiexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998191133300-33k9nr3c8iso5fjr7cpi00i9l1i2s1fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWLd9f8woOhKNkaadYxJqJ7ICrLMfbGwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998191133300-33k9nr3c8iso5fjr7cpi00i9l1i2s1fe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
