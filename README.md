@@ -10,7 +10,7 @@ Technologies used: •Android Studio• Java• Xml• Firebase• GoogelScript�
  
  ### MAIN SCREEN 
  The Main Screen of app looks like this:<br>
- ![](assets/Main-Screen.jpeg)
+ ![](Amravati_Express.jpeg)
   
 
 
