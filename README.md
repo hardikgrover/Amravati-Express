@@ -13,9 +13,28 @@ After a small user base is created various other services like home delivery, bo
  
 
  
- ### MAIN SCREEN 
- The Main Screen of app looks like this:<br>
-![Alt Text](AmravatiExpressGif.gif|height=400)
+<table style="border:none;">
+  <tr>
+    <td><b>1. Basic Overview of the app <b></td>
+    <td>2. First create your new account by tapping on sign-up button - </td>
+  </tr>
+      
+  <tr>
+    <td align="center"><img width="350px" src="AmravatiExpressGif.gif"></td>
+    <td align="center"><img width="350px" style="float:right;position:relative;" src="https://github.com/VishalGhai/DonateBooks---React-Native-App/blob/master/SignUp.jpg"></td>
+  </tr>
+  
+  <tr>
+    <td><b>Various shops and services shown on the home screen <b></td>
+    <td>4. Tap on any book you want - </td>
+  </tr>
+      
+  <tr>
+    <td align="center"><img width="350px" src="AmravatiExpress.jpg"></td>
+    <td align="center"><img width="350px" style="float:right;position:relative;" src="CallingScreen.jpg"></td>
+  </tr>
+  
+
   
 
 
