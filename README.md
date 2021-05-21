@@ -15,7 +15,7 @@ After a small user base is created various other services like home delivery, bo
  
  ### MAIN SCREEN 
  The Main Screen of app looks like this:<br>
- ![](Amravati_Express.jpeg)
+![Alt Text](AmravatiExpressGif.gif)
   
 
 
