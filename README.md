@@ -16,12 +16,12 @@ After a small user base is created various other services like home delivery, bo
 <table style="border:none;">
   <tr>
     <td><b>1. Basic Overview of the app <b></td>
-    <td>2. First create your new account by tapping on sign-up button - </td>
+    <td>2. App Logo </td>
   </tr>
       
   <tr>
     <td align="center"><img width="350px" src="AmravatiExpressGif.gif"></td>
-    <td align="center"><img width="350px" style="float:right;position:relative;" src="https://github.com/VishalGhai/DonateBooks---React-Native-App/blob/master/SignUp.jpg"></td>
+    <td align="center"><img width="350px" style="float:right;position:relative;" src=""></td>
   </tr>
   
   <tr>
@@ -31,8 +31,8 @@ After a small user base is created various other services like home delivery, bo
   </tr>
       
   <tr>
-    <td align="center"><img width="350px" src="AmravatiExpress.jpg"></td>
-    <td align="center"><img width="350px" style="float:right;position:relative;" src="CallingScreen.jpg"></td>
+    <td align="center"><img width="350px" src="Amravati_Express.jpeg"></td>
+    <td align="center"><img width="350px" style="float:right;position:relative;" src="CallingScreen.jpeg"></td>
   </tr>
   
 
