@@ -21,7 +21,7 @@ After a small user base is created various other services like home delivery, bo
       
   <tr>
     <td align="center"><img width="350px" src="AmravatiExpressGif.gif"></td>
-    <td align="center"><img width="350px" style="float:right;position:relative;" src=""></td>
+    <td align="center"><img width="350px" style="float:right;position:relative;" src="Logo.jpeg"></td>
   </tr>
   
   <tr>
