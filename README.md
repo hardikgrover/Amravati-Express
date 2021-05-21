@@ -26,7 +26,8 @@ After a small user base is created various other services like home delivery, bo
   
   <tr>
     <td><b>Various shops and services shown on the home screen <b></td>
-    <td>4. Tap on any book you want - </td>
+    <td>4. You can contact the shopkeeper and also give reviews
+     </td>
   </tr>
       
   <tr>
